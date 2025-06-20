@@ -34,7 +34,7 @@ Vá em APIs > + Add API
 - Selecione o Web App criado anteriormente
 - As rotas da sua API serão importadas automaticamente.
 
-[""](imagens/add-api.PNG)
+![""](imagens/add-api.PNG)
 
 Defina:
 

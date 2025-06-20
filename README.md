@@ -42,7 +42,7 @@ Defina:
 - Nome de exibição (Display Name)
 - Sufixo da API (ex: /v1)
 
-[""](imagens/create-api.PNG)
+![""](imagens/create-api.PNG)
 
 
 ### Adicionar Subscriptions
@@ -55,7 +55,7 @@ Ative a opção Require subscription
 
 `Defina o header como x-api-key`
 
-[""](imagens/config-subscriptions.PNG)
+![""](imagens/config-subscriptions.PNG)
 
 ➕ Criar uma Subscription
 Vá em Subscriptions > + Add
@@ -64,7 +64,7 @@ Defina o nome, Display Name e descrição
 
 Salve o valor da Primary Key para usar nas requisições
 
-[""](imagens/add-subscription.PNG)
+![""](imagens/add-subscription.PNG)
 
 
 📬 Enviar requisições com Subscription Key
@@ -90,7 +90,7 @@ Vá até Certificates & secrets > + New client secret
 
 - Salve o valor do Client Secret
 
-[""](imagens/secret.PNG)
+![""](imagens/secret.PNG)
 
 🔐 Criar Scopes e Roles
 Vá em Expose an API > Add a scope
@@ -100,7 +100,7 @@ Vá em Expose an API > Add a scope
 
 **SALVE O VALOR DO ESCOPO**
 
-[""](imagens/roles.PNG)
+![""](imagens/roles.PNG)
 [""](imagens/roles-permission.PNG)
 
 
@@ -115,11 +115,11 @@ Gere o Token passando essas informações em seu body.
   "grant_type": "client_credentials"
 } 
 ```
-[""](imagens/token-gerado.PNG)
+![""](imagens/token-gerado.PNG)
 
 **Pegue as informações**
 
-[""](imagens/decoder-payload.PNG)
+![""](imagens/decoder-payload.PNG)
 
 Vá até Design da API > Inbound processing
 
@@ -134,7 +134,7 @@ Configure:
 
 Clique em Save para salvar as configurações.
 
-[""](imagens/config-jwt.PNG)
+![""](imagens/config-jwt.PNG)
 
 Resultado Final
 Sua API estará:
